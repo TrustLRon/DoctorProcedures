@@ -1,0 +1,30 @@
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.Form1.resources
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.csproj.GenerateResource.Cache
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.NewDoctorProcedure.resources
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.NewDoctor.resources
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.NewProcedure.resources
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\EntityFramework.dll
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\System.Data.SQLite.dll
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\EntityFramework.xml
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\System.Data.SQLite.xml
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.Search.resources
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.Login.resources
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\PRP Doctors Procedure Setups.exe.config
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\PRP Doctors Procedure Setups.exe.manifest
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\PRP Doctors Procedure Setups.application
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\PRP Doctors Procedure Setups.exe
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\bin\Debug\PRP Doctors Procedure Setups.pdb
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\PRP Doctors Procedure Setups.exe.manifest
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\PRP Doctors Procedure Setups.application
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\PRP Doctors Procedure Setups.exe
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\PRP Doctors Procedure Setups.pdb
+C:\Users\Andrew\documents\visual studio 2013\Projects\DoctorProcedures\DoctorProcedures\obj\Debug\DoctorProcedures.AboutPage.resources

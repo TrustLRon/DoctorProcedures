@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LocalDoctorsAndProceduresDB" Class="ProcedureClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\mssqllocaldb;AttachDbFilename=|DataDirectory|\LocalDoctorsAndProceduresDB.mdf;Integrated Security=True" SettingsObjectName="DoctorProcedures.Properties.Settings" SettingsPropertyName="LocalDoctorsAndProceduresDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Procedures" Member="Procedures">
+    <Type Name="Procedure">
+      <Column Name="[procedure]" Member="procedure" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

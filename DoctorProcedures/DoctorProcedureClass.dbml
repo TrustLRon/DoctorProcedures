@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LocalDoctorsAndProceduresDB" Class="DoctorProcedureClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\mssqllocaldb;AttachDbFilename=|DataDirectory|\LocalDoctorsAndProceduresDB.mdf;Integrated Security=True" SettingsObjectName="DoctorProcedures.Properties.Settings" SettingsPropertyName="LocalDoctorsAndProceduresDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DoctorsProcedures" Member="DoctorsProcedures">
+    <Type Name="DoctorsProcedure">
+      <Column Name="doctorName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="doctorID" Type="System.String" DbType="Char(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="gloveSize" Type="System.Decimal" DbType="Decimal(2,1)" CanBeNull="true" />
+      <Column Name="procedureName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="modality" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="patientOrientation" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ifBilateral" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="syringes1mL" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="syringes3mL" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="syringes5mL" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="syringes10mL" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="needleDrawingUp" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="needle25g" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="needle19g" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="needle22g50mm" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="needle22g90mm" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="contrast" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="lignocaine" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="bupivacaine" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="steroidType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="steroidAmount" Type="System.Decimal" DbType="Decimal(2,0)" CanBeNull="true" />
+      <Column Name="otherEquipment" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="comments" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

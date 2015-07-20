@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LocalDoctorsAndProceduresDB" Class="ModalitiesClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\mssqllocaldb;AttachDbFilename=|DataDirectory|\LocalDoctorsAndProceduresDB.mdf;Integrated Security=True" SettingsObjectName="DoctorProcedures.Properties.Settings" SettingsPropertyName="LocalDoctorsAndProceduresDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Modalities" Member="Modalities">
+    <Type Name="Modality">
+      <Column Name="modalityID" Type="System.String" DbType="Char(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="modalityName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
