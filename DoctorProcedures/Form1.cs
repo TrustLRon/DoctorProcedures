@@ -222,8 +222,7 @@ namespace DoctorProcedures
                         }
                     }
                 }   
-            }
- 
+            } 
         }
 
         public void updateProcedure()

@@ -52,7 +52,6 @@ namespace DoctorProcedures
                     MessageBox.Show("Cannot be empty...", "Error",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
             }
             catch
             {
