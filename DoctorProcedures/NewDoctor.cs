@@ -62,7 +62,7 @@ namespace DoctorProcedures
             }
             catch
             {
-                MessageBox.Show("Something went wrong, try again...", "Error",
+                MessageBox.Show("Something went wrong, does the doctor already exist? Please try again...", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -115,6 +115,42 @@ namespace DoctorProcedures
         {
             this.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.Dispose();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            DoctorEdit docEdit = new DoctorEdit();
+
+            if (!String.IsNullOrEmpty(doctorBox.Text))
+            {
+                DataClasses1DataContext editContext = new DataClasses1DataContext();
+
+                var doctor = (from doc in editContext.Doctors
+                              where doc.doctorName == doctorBox.Text
+                              select doc).First();
+
+                
+                docEdit.oldDoctorName.Text = doctor.doctorName;
+                docEdit.oldInitials.Text = doctor.doctorID;
+                docEdit.oldGloves.Text = doctor.gloveSize.ToString();
+                docEdit.newDoctorName.Text = doctor.doctorName;
+                docEdit.newInitials.Text = doctor.doctorID;
+                docEdit.newGloves.Text = doctor.gloveSize.ToString();
+
+                docEdit.ShowDialog(this);
+
+                if (docEdit.DialogResult == DialogResult.OK)
+                {
+                    Form1.DoctorsList.Clear();
+                    Form1.GetDoctors();
+                    loadDoctors();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a doctor from the list", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

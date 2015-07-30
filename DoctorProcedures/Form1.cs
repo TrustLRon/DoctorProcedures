@@ -317,8 +317,16 @@ namespace DoctorProcedures
 
             if (newDoctor.DialogResult == DialogResult.OK)
             {
+                procedureBox.Items.Clear();
+                DoctorProceduresList.Clear();
+                ProceduresList.Clear();
+                clearInfo();
                 GetDoctors();
                 loadDoctors();
+                GetProcedures();
+                loadProcedures();
+                GetDoctorsProcedures();
+                updateProcedure();
             }
         }
 

@@ -42,7 +42,7 @@
             this.procedureListBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.procedureListBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.procedureListBox.FormattingEnabled = true;
-            this.procedureListBox.Location = new System.Drawing.Point(37, 52);
+            this.procedureListBox.Location = new System.Drawing.Point(37, 74);
             this.procedureListBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.procedureListBox.Name = "procedureListBox";
             this.procedureListBox.Size = new System.Drawing.Size(249, 21);
@@ -52,8 +52,8 @@
             // 
             this.searchButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.searchButton.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.searchButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.searchButton.Location = new System.Drawing.Point(105, 92);
+            this.searchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.searchButton.Location = new System.Drawing.Point(105, 115);
             this.searchButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(114, 34);
@@ -67,7 +67,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(45, 7);
+            this.label1.Location = new System.Drawing.Point(45, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(233, 26);
             this.label1.TabIndex = 39;
@@ -77,8 +77,8 @@
             // 
             this.finishedButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.finishedButton.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.finishedButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.finishedButton.Location = new System.Drawing.Point(120, 179);
+            this.finishedButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.finishedButton.Location = new System.Drawing.Point(120, 184);
             this.finishedButton.Name = "finishedButton";
             this.finishedButton.Size = new System.Drawing.Size(83, 31);
             this.finishedButton.TabIndex = 41;
@@ -99,11 +99,11 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.23529F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.76471F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 55.04587F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.95413F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(324, 219);
             this.tableLayoutPanel1.TabIndex = 42;
             // 

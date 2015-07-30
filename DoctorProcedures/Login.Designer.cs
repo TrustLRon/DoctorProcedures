@@ -39,7 +39,7 @@
             // 
             this.loginButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.loginButton.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginButton.Location = new System.Drawing.Point(113, 97);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(75, 37);

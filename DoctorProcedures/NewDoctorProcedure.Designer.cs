@@ -69,7 +69,6 @@
             this.syringes3mLBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.doctorBox = new System.Windows.Forms.ComboBox();
-            this.procedureBox = new System.Windows.Forms.ComboBox();
             this.finishedButton = new System.Windows.Forms.Button();
             this.submitButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
@@ -84,6 +83,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
+            this.procedureBox = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -494,25 +494,12 @@
             this.doctorBox.TabIndex = 1;
             this.doctorBox.SelectedIndexChanged += new System.EventHandler(this.doctorBox_SelectedIndexChanged);
             // 
-            // procedureBox
-            // 
-            this.procedureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.procedureBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.procedureBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.tableLayoutPanel1.SetColumnSpan(this.procedureBox, 3);
-            this.procedureBox.FormattingEnabled = true;
-            this.procedureBox.Location = new System.Drawing.Point(286, 48);
-            this.procedureBox.Name = "procedureBox";
-            this.procedureBox.Size = new System.Drawing.Size(302, 21);
-            this.procedureBox.TabIndex = 2;
-            this.procedureBox.SelectedIndexChanged += new System.EventHandler(this.procedureBox_SelectedIndexChanged);
-            // 
             // finishedButton
             // 
             this.finishedButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.finishedButton.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.tableLayoutPanel1.SetColumnSpan(this.finishedButton, 9);
-            this.finishedButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.finishedButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.finishedButton.Location = new System.Drawing.Point(301, 704);
             this.finishedButton.Name = "finishedButton";
             this.finishedButton.Size = new System.Drawing.Size(82, 29);
@@ -526,7 +513,7 @@
             this.submitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.submitButton.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.tableLayoutPanel1.SetColumnSpan(this.submitButton, 2);
-            this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitButton.Location = new System.Drawing.Point(594, 638);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(88, 33);
@@ -539,7 +526,7 @@
             // 
             this.deleteButton.BackColor = System.Drawing.Color.IndianRed;
             this.tableLayoutPanel1.SetColumnSpan(this.deleteButton, 2);
-            this.deleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.deleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteButton.Location = new System.Drawing.Point(239, 638);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(89, 33);
@@ -751,6 +738,19 @@
             this.label27.TabIndex = 120;
             this.label27.Text = "Doctor Details";
             // 
+            // procedureBox
+            // 
+            this.procedureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.procedureBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.procedureBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.tableLayoutPanel1.SetColumnSpan(this.procedureBox, 3);
+            this.procedureBox.FormattingEnabled = true;
+            this.procedureBox.Location = new System.Drawing.Point(286, 48);
+            this.procedureBox.Name = "procedureBox";
+            this.procedureBox.Size = new System.Drawing.Size(302, 21);
+            this.procedureBox.TabIndex = 2;
+            this.procedureBox.SelectedIndexChanged += new System.EventHandler(this.procedureBox_SelectedIndexChanged);
+            // 
             // NewDoctorProcedure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -819,7 +819,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label13;
         public System.Windows.Forms.ComboBox doctorBox;
-        public System.Windows.Forms.ComboBox procedureBox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TextBox nameBox;
         private System.Windows.Forms.TextBox initialsBox;
@@ -828,6 +827,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label27;
-
+        public System.Windows.Forms.ComboBox procedureBox;
     }
 }
