@@ -105,11 +105,12 @@
             this.tableLayoutPanel1.SetColumnSpan(this.doctorBox, 2);
             this.doctorBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.doctorBox.FormattingEnabled = true;
-            this.doctorBox.ItemHeight = 20;
-            this.doctorBox.Location = new System.Drawing.Point(16, 133);
+            this.doctorBox.ItemHeight = 29;
+            this.doctorBox.Location = new System.Drawing.Point(23, 199);
+            this.doctorBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.doctorBox.Name = "doctorBox";
             this.tableLayoutPanel1.SetRowSpan(this.doctorBox, 10);
-            this.doctorBox.Size = new System.Drawing.Size(206, 515);
+            this.doctorBox.Size = new System.Drawing.Size(310, 774);
             this.doctorBox.Sorted = true;
             this.doctorBox.TabIndex = 3;
             this.doctorBox.SelectedIndexChanged += new System.EventHandler(this.doctorBox_SelectedIndexChanged);
@@ -119,11 +120,12 @@
             this.tableLayoutPanel1.SetColumnSpan(this.procedureBox, 2);
             this.procedureBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.procedureBox.FormattingEnabled = true;
-            this.procedureBox.ItemHeight = 20;
-            this.procedureBox.Location = new System.Drawing.Point(228, 133);
+            this.procedureBox.ItemHeight = 29;
+            this.procedureBox.Location = new System.Drawing.Point(341, 199);
+            this.procedureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.procedureBox.Name = "procedureBox";
             this.tableLayoutPanel1.SetRowSpan(this.procedureBox, 10);
-            this.procedureBox.Size = new System.Drawing.Size(264, 515);
+            this.procedureBox.Size = new System.Drawing.Size(397, 774);
             this.procedureBox.Sorted = true;
             this.procedureBox.TabIndex = 4;
             this.procedureBox.SelectedIndexChanged += new System.EventHandler(this.procedureBox_SelectedIndexChanged);
@@ -132,10 +134,10 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(749, 99);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(1121, 149);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 20);
+            this.label2.Size = new System.Drawing.Size(109, 29);
             this.label2.TabIndex = 8;
             this.label2.Text = "Modality:";
             // 
@@ -144,20 +146,21 @@
             this.modalityBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.modalityBox.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel1.SetColumnSpan(this.modalityBox, 2);
-            this.modalityBox.Location = new System.Drawing.Point(827, 96);
+            this.modalityBox.Location = new System.Drawing.Point(1240, 146);
+            this.modalityBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.modalityBox.Name = "modalityBox";
             this.modalityBox.ReadOnly = true;
-            this.modalityBox.Size = new System.Drawing.Size(180, 26);
+            this.modalityBox.Size = new System.Drawing.Size(271, 35);
             this.modalityBox.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(67, 747);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(99, 1123);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 20);
+            this.label3.Size = new System.Drawing.Size(94, 29);
             this.label3.TabIndex = 10;
             this.label3.Text = "Gloves:";
             // 
@@ -166,29 +169,31 @@
             this.glovesBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.glovesBox.Enabled = false;
             this.glovesBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.glovesBox.Location = new System.Drawing.Point(136, 738);
+            this.glovesBox.Location = new System.Drawing.Point(203, 1111);
+            this.glovesBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.glovesBox.Name = "glovesBox";
-            this.glovesBox.Size = new System.Drawing.Size(86, 38);
+            this.glovesBox.Size = new System.Drawing.Size(130, 53);
             this.glovesBox.TabIndex = 9;
             this.glovesBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // syringes3mLBox
             // 
             this.syringes3mLBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.syringes3mLBox.Location = new System.Drawing.Point(1013, 306);
+            this.syringes3mLBox.Location = new System.Drawing.Point(1519, 461);
+            this.syringes3mLBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.syringes3mLBox.Name = "syringes3mLBox";
             this.syringes3mLBox.ReadOnly = true;
-            this.syringes3mLBox.Size = new System.Drawing.Size(63, 26);
+            this.syringes3mLBox.Size = new System.Drawing.Size(96, 35);
             this.syringes3mLBox.TabIndex = 11;
             // 
             // label5
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(675, 141);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(1013, 212);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(145, 20);
+            this.label5.Size = new System.Drawing.Size(217, 29);
             this.label5.TabIndex = 14;
             this.label5.Text = "Patient Orientation:";
             // 
@@ -196,20 +201,21 @@
             // 
             this.patientOrientationBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.SetColumnSpan(this.patientOrientationBox, 6);
-            this.patientOrientationBox.Location = new System.Drawing.Point(827, 138);
+            this.patientOrientationBox.Location = new System.Drawing.Point(1240, 209);
+            this.patientOrientationBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.patientOrientationBox.Name = "patientOrientationBox";
             this.patientOrientationBox.ReadOnly = true;
-            this.patientOrientationBox.Size = new System.Drawing.Size(523, 26);
+            this.patientOrientationBox.Size = new System.Drawing.Size(787, 35);
             this.patientOrientationBox.TabIndex = 13;
             // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(736, 183);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(1105, 275);
+            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 20);
+            this.label6.Size = new System.Drawing.Size(125, 29);
             this.label6.TabIndex = 16;
             this.label6.Text = "If Bilateral:";
             // 
@@ -217,20 +223,21 @@
             // 
             this.ifBilateralBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.SetColumnSpan(this.ifBilateralBox, 6);
-            this.ifBilateralBox.Location = new System.Drawing.Point(827, 180);
+            this.ifBilateralBox.Location = new System.Drawing.Point(1240, 272);
+            this.ifBilateralBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ifBilateralBox.Name = "ifBilateralBox";
             this.ifBilateralBox.ReadOnly = true;
-            this.ifBilateralBox.Size = new System.Drawing.Size(523, 26);
+            this.ifBilateralBox.Size = new System.Drawing.Size(787, 35);
             this.ifBilateralBox.TabIndex = 15;
             // 
             // label7
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(686, 508);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(1029, 762);
+            this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(134, 20);
+            this.label7.Size = new System.Drawing.Size(201, 29);
             this.label7.TabIndex = 18;
             this.label7.Text = "Other Equipment:";
             // 
@@ -238,22 +245,23 @@
             // 
             this.tableLayoutPanel1.SetColumnSpan(this.otherEquipmentBox, 6);
             this.otherEquipmentBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.otherEquipmentBox.Location = new System.Drawing.Point(827, 511);
+            this.otherEquipmentBox.Location = new System.Drawing.Point(1240, 766);
+            this.otherEquipmentBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.otherEquipmentBox.Multiline = true;
             this.otherEquipmentBox.Name = "otherEquipmentBox";
             this.otherEquipmentBox.ReadOnly = true;
             this.otherEquipmentBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.otherEquipmentBox.Size = new System.Drawing.Size(523, 137);
+            this.otherEquipmentBox.Size = new System.Drawing.Size(787, 207);
             this.otherEquipmentBox.TabIndex = 17;
             // 
             // label8
             // 
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(730, 651);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(1095, 977);
+            this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 20);
+            this.label8.Size = new System.Drawing.Size(135, 29);
             this.label8.TabIndex = 20;
             this.label8.Text = "Comments:";
             // 
@@ -261,63 +269,66 @@
             // 
             this.tableLayoutPanel1.SetColumnSpan(this.commentsBox, 6);
             this.commentsBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.commentsBox.Location = new System.Drawing.Point(827, 654);
+            this.commentsBox.Location = new System.Drawing.Point(1240, 981);
+            this.commentsBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.commentsBox.Multiline = true;
             this.commentsBox.Name = "commentsBox";
             this.commentsBox.ReadOnly = true;
             this.tableLayoutPanel1.SetRowSpan(this.commentsBox, 2);
             this.commentsBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.commentsBox.Size = new System.Drawing.Size(523, 136);
+            this.commentsBox.Size = new System.Drawing.Size(787, 206);
             this.commentsBox.TabIndex = 19;
             // 
             // label9
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(1121, 267);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(1680, 401);
+            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 20);
+            this.label9.Size = new System.Drawing.Size(137, 29);
             this.label9.TabIndex = 22;
             this.label9.Text = "Lignocaine:";
             // 
             // lignocaineBox
             // 
             this.lignocaineBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lignocaineBox.Location = new System.Drawing.Point(1218, 264);
+            this.lignocaineBox.Location = new System.Drawing.Point(1827, 398);
+            this.lignocaineBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lignocaineBox.Name = "lignocaineBox";
             this.lignocaineBox.ReadOnly = true;
-            this.lignocaineBox.Size = new System.Drawing.Size(63, 26);
+            this.lignocaineBox.Size = new System.Drawing.Size(96, 35);
             this.lignocaineBox.TabIndex = 21;
             // 
             // label10
             // 
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(1112, 309);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(1667, 464);
+            this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(99, 20);
+            this.label10.Size = new System.Drawing.Size(150, 29);
             this.label10.TabIndex = 24;
             this.label10.Text = "Bupivacaine:";
             // 
             // bupivacaineBox
             // 
             this.bupivacaineBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.bupivacaineBox.Location = new System.Drawing.Point(1218, 306);
+            this.bupivacaineBox.Location = new System.Drawing.Point(1827, 461);
+            this.bupivacaineBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bupivacaineBox.Name = "bupivacaineBox";
             this.bupivacaineBox.ReadOnly = true;
-            this.bupivacaineBox.Size = new System.Drawing.Size(63, 26);
+            this.bupivacaineBox.Size = new System.Drawing.Size(96, 35);
             this.bupivacaineBox.TabIndex = 23;
             // 
             // label11
             // 
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(1109, 351);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(1659, 527);
+            this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(102, 20);
+            this.label11.Size = new System.Drawing.Size(158, 29);
             this.label11.TabIndex = 26;
             this.label11.Text = "Steroid Type:";
             // 
@@ -325,10 +336,11 @@
             // 
             this.steroidTypeBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.SetColumnSpan(this.steroidTypeBox, 2);
-            this.steroidTypeBox.Location = new System.Drawing.Point(1218, 348);
+            this.steroidTypeBox.Location = new System.Drawing.Point(1827, 524);
+            this.steroidTypeBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.steroidTypeBox.Name = "steroidTypeBox";
             this.steroidTypeBox.ReadOnly = true;
-            this.steroidTypeBox.Size = new System.Drawing.Size(132, 26);
+            this.steroidTypeBox.Size = new System.Drawing.Size(200, 35);
             this.steroidTypeBox.TabIndex = 25;
             // 
             // label13
@@ -336,10 +348,10 @@
             this.tableLayoutPanel1.SetColumnSpan(this.label13, 2);
             this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(17, 88);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(25, 132);
+            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(204, 42);
+            this.label13.Size = new System.Drawing.Size(306, 63);
             this.label13.TabIndex = 28;
             this.label13.Text = "Doctor";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -349,10 +361,10 @@
             this.tableLayoutPanel1.SetColumnSpan(this.label14, 2);
             this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(229, 88);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(343, 132);
+            this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(262, 42);
+            this.label14.Size = new System.Drawing.Size(393, 63);
             this.label14.TabIndex = 29;
             this.label14.Text = "Procedure";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -361,10 +373,10 @@
             // 
             this.label15.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(71, 676);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(106, 1016);
+            this.label15.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(58, 20);
+            this.label15.Size = new System.Drawing.Size(87, 29);
             this.label15.TabIndex = 30;
             this.label15.Text = "Initials:";
             // 
@@ -373,9 +385,10 @@
             this.initialsBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.initialsBox.Enabled = false;
             this.initialsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.initialsBox.Location = new System.Drawing.Point(136, 667);
+            this.initialsBox.Location = new System.Drawing.Point(203, 1004);
+            this.initialsBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.initialsBox.Name = "initialsBox";
-            this.initialsBox.Size = new System.Drawing.Size(86, 38);
+            this.initialsBox.Size = new System.Drawing.Size(130, 53);
             this.initialsBox.TabIndex = 31;
             this.initialsBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -385,10 +398,10 @@
             this.label12.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.label12, 2);
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(828, 62);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(1242, 95);
+            this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(74, 26);
+            this.label12.Size = new System.Drawing.Size(105, 37);
             this.label12.TabIndex = 34;
             this.label12.Text = "Setup";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -399,10 +412,10 @@
             this.label16.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.label16, 2);
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(34, 54);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(58, 82);
+            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(169, 26);
+            this.label16.Size = new System.Drawing.Size(240, 37);
             this.label16.TabIndex = 37;
             this.label16.Text = "Modality Filter:";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -415,37 +428,41 @@
             this.tableLayoutPanel1.SetColumnSpan(this.modalityListBox, 2);
             this.modalityListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.modalityListBox.FormattingEnabled = true;
-            this.modalityListBox.Location = new System.Drawing.Point(228, 53);
+            this.modalityListBox.Location = new System.Drawing.Point(341, 82);
+            this.modalityListBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.modalityListBox.Name = "modalityListBox";
-            this.modalityListBox.Size = new System.Drawing.Size(264, 28);
+            this.modalityListBox.Size = new System.Drawing.Size(397, 37);
             this.modalityListBox.TabIndex = 38;
             this.modalityListBox.SelectedIndexChanged += new System.EventHandler(this.modalityListBox_SelectedIndexChanged);
             // 
             // syringes5mLBox
             // 
             this.syringes5mLBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.syringes5mLBox.Location = new System.Drawing.Point(1013, 348);
+            this.syringes5mLBox.Location = new System.Drawing.Point(1519, 524);
+            this.syringes5mLBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.syringes5mLBox.Name = "syringes5mLBox";
             this.syringes5mLBox.ReadOnly = true;
-            this.syringes5mLBox.Size = new System.Drawing.Size(63, 26);
+            this.syringes5mLBox.Size = new System.Drawing.Size(96, 35);
             this.syringes5mLBox.TabIndex = 39;
             // 
             // syringes10mLBox
             // 
             this.syringes10mLBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.syringes10mLBox.Location = new System.Drawing.Point(1013, 390);
+            this.syringes10mLBox.Location = new System.Drawing.Point(1519, 587);
+            this.syringes10mLBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.syringes10mLBox.Name = "syringes10mLBox";
             this.syringes10mLBox.ReadOnly = true;
-            this.syringes10mLBox.Size = new System.Drawing.Size(63, 26);
+            this.syringes10mLBox.Size = new System.Drawing.Size(96, 35);
             this.syringes10mLBox.TabIndex = 40;
             // 
             // label17
             // 
             this.label17.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(906, 309);
+            this.label17.Location = new System.Drawing.Point(1358, 464);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(101, 20);
+            this.label17.Size = new System.Drawing.Size(153, 29);
             this.label17.TabIndex = 41;
             this.label17.Text = "3mL Syringe:";
             // 
@@ -453,9 +470,10 @@
             // 
             this.label18.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(906, 351);
+            this.label18.Location = new System.Drawing.Point(1358, 527);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(101, 20);
+            this.label18.Size = new System.Drawing.Size(153, 29);
             this.label18.TabIndex = 42;
             this.label18.Text = "5mL Syringe:";
             // 
@@ -463,9 +481,10 @@
             // 
             this.label19.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(897, 393);
+            this.label19.Location = new System.Drawing.Point(1345, 590);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(110, 20);
+            this.label19.Size = new System.Drawing.Size(166, 29);
             this.label19.TabIndex = 43;
             this.label19.Text = "10mL Syringe:";
             // 
@@ -473,104 +492,115 @@
             // 
             this.label20.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(640, 267);
+            this.label20.Location = new System.Drawing.Point(958, 401);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(181, 20);
+            this.label20.Size = new System.Drawing.Size(274, 29);
             this.label20.TabIndex = 44;
             this.label20.Text = "Drawing Up (Pink Blunt):";
             // 
             // needleDrawingUpBox
             // 
             this.needleDrawingUpBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.needleDrawingUpBox.Location = new System.Drawing.Point(827, 264);
+            this.needleDrawingUpBox.Location = new System.Drawing.Point(1240, 398);
+            this.needleDrawingUpBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.needleDrawingUpBox.Name = "needleDrawingUpBox";
             this.needleDrawingUpBox.ReadOnly = true;
-            this.needleDrawingUpBox.Size = new System.Drawing.Size(63, 26);
+            this.needleDrawingUpBox.Size = new System.Drawing.Size(96, 35);
             this.needleDrawingUpBox.TabIndex = 45;
             // 
             // label21
             // 
             this.label21.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(666, 309);
+            this.label21.Location = new System.Drawing.Point(998, 464);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(155, 20);
+            this.label21.Size = new System.Drawing.Size(234, 29);
             this.label21.TabIndex = 46;
             this.label21.Text = "25g 35mm (Orange):";
             // 
             // needle25gBox
             // 
             this.needle25gBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.needle25gBox.Location = new System.Drawing.Point(827, 306);
+            this.needle25gBox.Location = new System.Drawing.Point(1240, 461);
+            this.needle25gBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.needle25gBox.Name = "needle25gBox";
             this.needle25gBox.ReadOnly = true;
-            this.needle25gBox.Size = new System.Drawing.Size(63, 26);
+            this.needle25gBox.Size = new System.Drawing.Size(96, 35);
             this.needle25gBox.TabIndex = 47;
             // 
             // label22
             // 
             this.label22.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(685, 393);
+            this.label22.Location = new System.Drawing.Point(1028, 590);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(136, 20);
+            this.label22.Size = new System.Drawing.Size(204, 29);
             this.label22.TabIndex = 48;
             this.label22.Text = "22g 50mm (Grey):";
             // 
             // needle22g50mmBox
             // 
             this.needle22g50mmBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.needle22g50mmBox.Location = new System.Drawing.Point(827, 390);
+            this.needle22g50mmBox.Location = new System.Drawing.Point(1240, 587);
+            this.needle22g50mmBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.needle22g50mmBox.Name = "needle22g50mmBox";
             this.needle22g50mmBox.ReadOnly = true;
-            this.needle22g50mmBox.Size = new System.Drawing.Size(63, 26);
+            this.needle22g50mmBox.Size = new System.Drawing.Size(96, 35);
             this.needle22g50mmBox.TabIndex = 49;
             // 
             // label23
             // 
             this.label23.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(632, 435);
+            this.label23.Location = new System.Drawing.Point(946, 653);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(189, 20);
+            this.label23.Size = new System.Drawing.Size(286, 29);
             this.label23.TabIndex = 50;
             this.label23.Text = "22g 90mm Spinal (Black):";
             // 
             // needle22g90mmBox
             // 
             this.needle22g90mmBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.needle22g90mmBox.Location = new System.Drawing.Point(827, 432);
+            this.needle22g90mmBox.Location = new System.Drawing.Point(1240, 650);
+            this.needle22g90mmBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.needle22g90mmBox.Name = "needle22g90mmBox";
             this.needle22g90mmBox.ReadOnly = true;
-            this.needle22g90mmBox.Size = new System.Drawing.Size(63, 26);
+            this.needle22g90mmBox.Size = new System.Drawing.Size(96, 35);
             this.needle22g90mmBox.TabIndex = 51;
             // 
             // label24
             // 
             this.label24.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(678, 351);
+            this.label24.Location = new System.Drawing.Point(1018, 527);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(143, 20);
+            this.label24.Size = new System.Drawing.Size(214, 29);
             this.label24.TabIndex = 52;
             this.label24.Text = "19g 35mm (White):";
             // 
             // needle19gBox
             // 
             this.needle19gBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.needle19gBox.Location = new System.Drawing.Point(827, 348);
+            this.needle19gBox.Location = new System.Drawing.Point(1240, 524);
+            this.needle19gBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.needle19gBox.Name = "needle19gBox";
             this.needle19gBox.ReadOnly = true;
-            this.needle19gBox.Size = new System.Drawing.Size(63, 26);
+            this.needle19gBox.Size = new System.Drawing.Size(96, 35);
             this.needle19gBox.TabIndex = 53;
             // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1138, 435);
+            this.label1.Location = new System.Drawing.Point(1711, 653);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 20);
+            this.label1.Size = new System.Drawing.Size(108, 29);
             this.label1.TabIndex = 54;
             this.label1.Text = "Contrast:";
             // 
@@ -578,10 +608,11 @@
             // 
             this.contrastBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.SetColumnSpan(this.contrastBox, 2);
-            this.contrastBox.Location = new System.Drawing.Point(1218, 432);
+            this.contrastBox.Location = new System.Drawing.Point(1827, 650);
+            this.contrastBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.contrastBox.Name = "contrastBox";
             this.contrastBox.ReadOnly = true;
-            this.contrastBox.Size = new System.Drawing.Size(132, 26);
+            this.contrastBox.Size = new System.Drawing.Size(200, 35);
             this.contrastBox.TabIndex = 55;
             // 
             // label25
@@ -590,9 +621,10 @@
             this.label25.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.label25, 2);
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(827, 230);
+            this.label25.Location = new System.Drawing.Point(1240, 347);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(126, 26);
+            this.label25.Size = new System.Drawing.Size(179, 37);
             this.label25.TabIndex = 56;
             this.label25.Text = "Equipment";
             // 
@@ -600,23 +632,26 @@
             // 
             this.label26.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(906, 267);
+            this.label26.Location = new System.Drawing.Point(1358, 401);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(101, 20);
+            this.label26.Size = new System.Drawing.Size(153, 29);
             this.label26.TabIndex = 58;
             this.label26.Text = "1mL Syringe:";
             // 
             // syringes1mLBox
             // 
             this.syringes1mLBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.syringes1mLBox.Location = new System.Drawing.Point(1013, 264);
+            this.syringes1mLBox.Location = new System.Drawing.Point(1519, 398);
+            this.syringes1mLBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.syringes1mLBox.Name = "syringes1mLBox";
             this.syringes1mLBox.ReadOnly = true;
-            this.syringes1mLBox.Size = new System.Drawing.Size(63, 26);
+            this.syringes1mLBox.Size = new System.Drawing.Size(96, 35);
             this.syringes1mLBox.TabIndex = 57;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.adminToolStripMenuItem,
@@ -624,7 +659,8 @@
             this.loggedOutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1372, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(2058, 35);
             this.menuStrip1.TabIndex = 60;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -635,25 +671,25 @@
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(50, 29);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(149, 30);
             this.searchToolStripMenuItem.Text = "Search";
             this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(106, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(146, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(149, 30);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -666,26 +702,26 @@
             this.newProcedureToolStripMenuItem,
             this.newDoctorProcedureToolStripMenuItem});
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(77, 29);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // loginToolStripMenuItem
             // 
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(220, 30);
             this.loginToolStripMenuItem.Text = "Login";
             this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(153, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(217, 6);
             // 
             // newDoctorToolStripMenuItem
             // 
             this.newDoctorToolStripMenuItem.Enabled = false;
             this.newDoctorToolStripMenuItem.Name = "newDoctorToolStripMenuItem";
-            this.newDoctorToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.newDoctorToolStripMenuItem.Size = new System.Drawing.Size(220, 30);
             this.newDoctorToolStripMenuItem.Text = "Edit Doctors";
             this.newDoctorToolStripMenuItem.Click += new System.EventHandler(this.newDoctorToolStripMenuItem_Click);
             // 
@@ -693,7 +729,7 @@
             // 
             this.newProcedureToolStripMenuItem.Enabled = false;
             this.newProcedureToolStripMenuItem.Name = "newProcedureToolStripMenuItem";
-            this.newProcedureToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.newProcedureToolStripMenuItem.Size = new System.Drawing.Size(220, 30);
             this.newProcedureToolStripMenuItem.Text = "Edit Procedures";
             this.newProcedureToolStripMenuItem.Click += new System.EventHandler(this.newProcedureToolStripMenuItem_Click);
             // 
@@ -701,7 +737,7 @@
             // 
             this.newDoctorProcedureToolStripMenuItem.Enabled = false;
             this.newDoctorProcedureToolStripMenuItem.Name = "newDoctorProcedureToolStripMenuItem";
-            this.newDoctorProcedureToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.newDoctorProcedureToolStripMenuItem.Size = new System.Drawing.Size(220, 30);
             this.newDoctorProcedureToolStripMenuItem.Text = "Edit Setups";
             this.newDoctorProcedureToolStripMenuItem.Click += new System.EventHandler(this.newDoctorProcedureToolStripMenuItem_Click);
             // 
@@ -712,33 +748,34 @@
             this.toolStripSeparator2,
             this.helpToolStripMenuItem1});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(61, 29);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(104, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(208, 6);
             // 
             // helpToolStripMenuItem1
             // 
             this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
-            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
+            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(211, 30);
             this.helpToolStripMenuItem1.Text = "Help";
+            this.helpToolStripMenuItem1.Click += new System.EventHandler(this.helpToolStripMenuItem1_Click);
             // 
             // loggedOutToolStripMenuItem
             // 
             this.loggedOutToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.loggedOutToolStripMenuItem.Enabled = false;
             this.loggedOutToolStripMenuItem.Name = "loggedOutToolStripMenuItem";
-            this.loggedOutToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.loggedOutToolStripMenuItem.Size = new System.Drawing.Size(120, 29);
             this.loggedOutToolStripMenuItem.Text = "Logged Out";
             // 
             // label28
@@ -747,28 +784,31 @@
             this.label28.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.label28, 3);
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(827, 482);
+            this.label28.Location = new System.Drawing.Point(1240, 725);
+            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(198, 26);
+            this.label28.Size = new System.Drawing.Size(284, 37);
             this.label28.TabIndex = 61;
             this.label28.Text = "Other Information";
             // 
             // steroidAmountBox
             // 
             this.steroidAmountBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.steroidAmountBox.Location = new System.Drawing.Point(1218, 390);
+            this.steroidAmountBox.Location = new System.Drawing.Point(1827, 587);
+            this.steroidAmountBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.steroidAmountBox.Name = "steroidAmountBox";
             this.steroidAmountBox.ReadOnly = true;
-            this.steroidAmountBox.Size = new System.Drawing.Size(63, 26);
+            this.steroidAmountBox.Size = new System.Drawing.Size(96, 35);
             this.steroidAmountBox.TabIndex = 63;
             // 
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1088, 393);
+            this.label4.Location = new System.Drawing.Point(1635, 590);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(124, 20);
+            this.label4.Size = new System.Drawing.Size(184, 29);
             this.label4.TabIndex = 64;
             this.label4.Text = "Steroid Amount:";
             // 
@@ -844,6 +884,7 @@
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 16;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.674792F));
@@ -862,21 +903,21 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.831955F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.831955F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.116043F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1372, 811);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(2058, 1216);
             this.tableLayoutPanel1.TabIndex = 65;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1372, 811);
+            this.ClientSize = new System.Drawing.Size(2058, 1216);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Doctors Procedure Preferences 1.0";

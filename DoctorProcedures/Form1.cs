@@ -414,7 +414,13 @@ namespace DoctorProcedures
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AboutPage about = new AboutPage();
-            about.Show();
+            about.ShowDialog();
+        }
+
+        private void helpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Help help = new Help();
+            help.ShowDialog();
         }
     }
 }
