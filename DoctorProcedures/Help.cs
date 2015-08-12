@@ -16,5 +16,29 @@ namespace DoctorProcedures
         {
             InitializeComponent();
         }
+
+        private void helpTree_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            if (helpTree.SelectedNode.Text == "About")
+            {
+                helpTextBox.Text = "About";
+            }
+            else if (helpTree.SelectedNode.Text == "Add")
+            {
+                helpTextBox.Text = "Add";
+            }
+            else if (helpTree.SelectedNode.Text == "Delete")
+            {
+                helpTextBox.Text = "Delete";
+            }
+            else if (helpTree.SelectedNode.Text == "View")
+            {
+                helpTextBox.Text = "View";
+            }
+            else
+            {
+                helpTextBox.Text = "";
+            }
+        }
     }
 }
