@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRP Doctors Procedure Setups.exe" size="193976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PRP Doctors Procedure Setups.exe" size="200632">
       <assemblyIdentity name="PRP Doctors Procedure Setups" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>W+Qcc+pTzxL6r4NoyVQeXAldK4FkHDlyObmrp8w/ewE=</dsig:DigestValue>
+        <dsig:DigestValue>quW4j4khkX1kVyaAi0z0ZVyCavbmfPovm2AM91wKYT0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -143,16 +143,16 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>9C7WEwwL0QNJH1O7Z7K0fDp01ENDFBlMR7DDXUUyINs=</dsig:DigestValue>
+      <dsig:DigestValue>0C5y3hBmaZVqaN1ZT26tgICLm+l47fK7zyjYnQNXNXc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LocalDoctorsAndProceduresDB_log.ldf" size="573440" writeableType="applicationData">
+  <file name="LocalDoctorsAndProceduresDB_log.ldf" size="851968" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rF5/H2UYCgSbIJFYz2t6BTECc7k9+JtnPbR2qaO3BhU=</dsig:DigestValue>
+      <dsig:DigestValue>skk79TCc+/6LGm1V2qjXDd9uFIGPjmLKUsheJ4IW7Jw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="PRP Doctors Procedure Setups.exe.config" size="2570">
